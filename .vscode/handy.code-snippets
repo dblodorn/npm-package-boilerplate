@@ -1,0 +1,13 @@
+{
+  "Documentation": {
+    "prefix": "doc",
+    "body": [
+      "$BLOCK_COMMENT_START",
+      "ᯣ Params ᮡ",
+      "Descriptionꪵ $1",
+      "Inputꪵ $2",
+      "Outputꪵ $3",
+      "$BLOCK_COMMENT_END",
+    ]
+  }
+}
