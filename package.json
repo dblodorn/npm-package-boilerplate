@@ -1,6 +1,6 @@
 {
   "name": "@public-assembly/npm-package-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "build a react package now",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -49,7 +49,8 @@
       "yarn prettier --write ."
     ]
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "react": "^18.2.0"
   }
 }
