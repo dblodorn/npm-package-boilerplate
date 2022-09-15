@@ -8,15 +8,15 @@
   "files": [
     "dist"
   ],
+  "workspaces": ["app"],
   "scripts": {
     "build": "yarn run prepack",
     "prettier": "prettier src --write",
     "lint": "eslint src",
     "prepack": "yarn clean && yarn run prettier && yarn run tsc",
     "clean": "rm -rf ./dist",
-    "example": "npx parcel example/index.html",
-    "app": "cd app && yarn dev",
-    "publish": "yarn clean && yarn run prettier && yarn run tsc && npm publish --access public"
+    "publish": "yarn clean && yarn run prettier && yarn run tsc && npm publish --access public",
+    "dev": "cd app && yarn dev"
   },
   "author": "Public Assembly",
   "license": "MIT",
