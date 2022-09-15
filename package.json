@@ -15,6 +15,7 @@
     "prepack": "yarn clean && yarn run prettier && yarn run tsc",
     "clean": "rm -rf ./dist",
     "example": "npx parcel example/index.html",
+    "app": "cd app && yarn dev",
     "publish": "yarn clean && yarn run prettier && yarn run tsc && npm publish --access public"
   },
   "author": "Public Assembly",
