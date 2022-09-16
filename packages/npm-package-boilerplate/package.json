@@ -1,0 +1,35 @@
+{
+  "name": "@public-assembly/npm-package-boilerplate",
+  "version": "0.0.1",
+  "description": "build a react package now",
+  "main": "dist/public-assembly-npm-package-boilerplate.cjs.js",
+  "module": "dist/public-assembly-npm-package-boilerplate.esm.js",
+  "typings": "dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "module": "./dist/public-assembly-npm-package-boilerplate.esm.js",
+      "default": "./dist/public-assembly-npm-package-boilerplate.cjs.js"
+    }
+  },  
+  "files": [
+    "/dist"
+  ],
+  "author": "Public Assembly",
+  "license": "MIT",
+  "preconstruct": {
+    "entrypoints": ["index.{js,jsx,ts,tsx}"]
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "react": "^18.1.0",
+    "react-17": "npm:react@17.0.2",
+    "react-dom": "^18.1.0",
+    "react-dom-17": "npm:react-dom@17.0.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+}

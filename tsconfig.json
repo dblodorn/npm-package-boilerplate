@@ -9,6 +9,7 @@
     "preserveConstEnums": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
+    "isolatedModules": true,
     "esModuleInterop": true,
     "declaration": true,
     "jsx": "react-jsx",
@@ -25,5 +26,6 @@
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true
   },
-  "include": ["src"]
+  "exclude": ["node_modules", "**/dist/**"],
+  "include": ["packages/**/*"]
 }
