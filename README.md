@@ -10,4 +10,3 @@ A simple react app to develop agains is set up in the example directory.
 
 2. Run example:
 `yarn dev`
-

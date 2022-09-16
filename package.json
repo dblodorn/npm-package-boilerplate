@@ -8,6 +8,7 @@
   "files": [
     "dist"
   ],
+  "workspaces": ["app"],
   "scripts": {
     "build": "yarn run prepack",
     "prettier": "prettier src --write",
